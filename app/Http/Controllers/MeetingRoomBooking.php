@@ -38,8 +38,7 @@ class MeetingRoomBooking extends Controller
         session_start();
         $_SESSION["username"] =$username;
         
-        $a=Hash::make($request['pass']);
-        $b=$request['pass_re'];
+        $password=Hash::make($request['pass']);
 
         return view('register');
 
