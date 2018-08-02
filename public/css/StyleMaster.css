@@ -1,0 +1,15 @@
+.meeting {
+	display:block;
+	margin-left:425px;
+}
+.footer {
+	display: block;
+	position: relative;
+	top:150px;
+}
+.date {
+	display: block;
+	position: relative;
+	top:10px;
+	left:580px;
+}

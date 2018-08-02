@@ -1,0 +1,55 @@
+.signup{
+	display:block;
+	position:relative;
+	left:360px;
+	top:50px;
+	border:2px solid black; 
+	padding:30px;
+	width:500px;
+}
+.name{
+	display:block;
+	position:relative;
+	left:30px;
+}
+.name input {
+	display: inline-block;
+	margin-left:98px;
+}
+.pass{
+	display:block;
+	position:relative;
+	left:30px;
+}
+.pass input {
+	display: inline-block;
+	margin-left:98px;
+}
+.pass_re {
+	display:block;
+	position:relative;
+	left:30px;
+}
+.pass_re input {
+	display: inline-block;
+	margin-left:30px;
+}
+.email{
+	display:block;
+	position:relative;
+	left:30px;
+}
+.email input {
+	display: inline-block;
+	margin-left:132px;
+}
+.buttons{
+	display:block;
+	position:relative;
+	left:165px;
+}
+.heading{
+	display:block;
+	position:relative;
+	left:190px;
+}

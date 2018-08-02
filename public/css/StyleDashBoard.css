@@ -1,0 +1,47 @@
+.username {
+	display:block;
+	position:absolute;
+	left:575px;
+	top:80px;
+}
+.booking {
+	display:block;
+	position:absolute;
+	left:100px;
+	top:95px;
+	width:200px;
+}
+.logout {
+	display:block;
+	position:absolute;
+	left:1000px;
+	top:95px;
+	width:200px;
+}
+.heading {
+	display:block;
+	position:relative;
+	left:550px;
+}
+.dashboard {
+	display:block;
+	position:relative;
+	border:2px solid black;
+	top:50px;
+	margin:10px;
+	padding:10px;
+}
+table {
+	display:block;
+	align:ceclass='booking_form'nter;
+	border:1px solid black;
+	border-collapse: collapse;
+}
+th {
+	width:300px;
+	border:1px solid black;
+}
+td {
+	width:300px;
+	border:1px solid black;
+}

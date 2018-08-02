@@ -1,0 +1,62 @@
+.register {
+	display: block;
+	position: relative;
+	border: 2px solid black;
+	width: 500px;
+	left: 385px;
+	top:30px;
+}
+.heading {
+	display: block;
+	position: relative;
+	left:150px;
+}
+.first_name {
+	display: block;
+	margin-left:50px;
+}
+.first_name input {
+	display:inline-block;
+	margin-left:50px;
+}
+.last_name {
+	display: block;
+	margin-left:50px;
+}
+.last_name input {
+	display:inline-block;
+	margin-left:53px;
+}
+.age {
+	display: block;
+	margin-left:50px;
+}
+.age input {
+	display:inline-block;
+	margin-left:105px;
+}
+.email {
+	display: block;
+	margin-left:50px;
+}
+.email input {
+	display:inline-block;
+	margin-left:90px;
+}
+.address {
+	display: block;
+	margin-left:50px;
+}
+.address input {
+	display:inline-block;
+	margin-left:75px;
+}
+.buttons {
+	display: block;
+	margin-left:80px;
+}
+.buttons input {
+	display: inline-block;
+	margin:10px;
+	width:150px
+}
