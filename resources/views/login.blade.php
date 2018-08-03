@@ -15,6 +15,7 @@
 			<input type='submit' name='signup' value='Sign Up'>
 		</div>
 	</a>
+	@if(session('error'))<p class='error'>{{session('error')}}</p>@endif
 </div>
 @stop
 @section('script')

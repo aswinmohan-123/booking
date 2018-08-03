@@ -1,6 +1,7 @@
 @extends('layout.master')
 @section('content')
 <link rel='stylesheet' href='css/RegisterStyle.css'>
+<p class='username'>User Name : <?php echo $_SESSION["username"]; ?></p>
 <div class='register'>
 <h2 class='heading'>Register Form</h2>
 <form method='post' action="/register">
@@ -12,6 +13,8 @@
 <div class='address'>address : <input type='text' id='address' name='address'></div><br>
 <div class='buttons'><input type='submit' value='Register'><input type='button' value='Cancel' onclick='can()'></div>
 </form>
+@if(count($errors))@foreach ($errors->all() as $error)<div><ul><li>{{$error}}</li></ul></div>@endforeach @endif
+@if(session('err'))<div>{{session('err')}}</div>@endif
 </div>
 @stop
 @section('script')

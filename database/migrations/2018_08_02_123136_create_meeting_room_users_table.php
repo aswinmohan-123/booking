@@ -15,9 +15,9 @@ class CreateMeetingRoomUsersTable extends Migration
     {
         Schema::create('meeting_room_users', function (Blueprint $table) {
             $table->increments('id');
-            $table->int('room_id');
-            $table->int('user_id');
-            $table->int('time_slot_id');
+            $table->integer('room_id');
+            $table->integer('user_id');
+            $table->integer('time_slot_id');
             $table->string('purpose');
             $table->timestamps();
         });

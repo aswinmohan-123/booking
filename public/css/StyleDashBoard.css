@@ -7,7 +7,7 @@
 .booking {
 	display:block;
 	position:absolute;
-	left:100px;
+	left:800px;
 	top:95px;
 	width:200px;
 }
@@ -44,4 +44,11 @@ th {
 td {
 	width:300px;
 	border:1px solid black;
+}
+.room_select {
+	display:block;
+	position:absolute;
+	left:100px;
+	top:95px;
+	width:200px;
 }

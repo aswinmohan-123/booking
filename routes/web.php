@@ -23,6 +23,6 @@ Route::get('/saving','MeetingRoomBooking@saving');
 
 Route::post('/register','MeetingRoomBooking@register');
 
-Route::post('/dashboard','MeetingRoomBooking@dashBoard');
-
 Route::post('/book_room','MeetingRoomBooking@bookMeetingRoom');
+
+Route::get('/registershow','MeetingRoomBooking@registerShow');
